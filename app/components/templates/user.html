@@ -1,0 +1,26 @@
+<h3 style="margin-left: 30px"><b>
+  {{name}}'s Profile
+</b></h3>
+<hr/>
+<ul style="list-style-type: none">
+  <li>Username: {{username}}</li>
+  <li>Email: {{email}}</li>
+  <li>Phone: {{phone}}</li>
+  <li>City: {{address.city}}</li>
+  <li>Website: {{website}}</li>
+  <li>Company: {{company.name}}</li>
+</ul>
+<br>
+<hr>
+<p align="center">
+  <b>{{name}} posts, click on 'read more' if you want to see the complete updates</b>
+</p>
+<br>
+<post 
+  ng-repeat="post in posts"
+  user-id="post.userId"
+  post-id="post.id"
+  title="post.title"
+  hide-name-and-email="true">
+    {{post.body}}
+</post>

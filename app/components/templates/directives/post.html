@@ -1,0 +1,18 @@
+<div>
+  <div style="margin-left: 3%">
+    <h5><dt>{{postId}} {{title}}</dt></h5>
+    <h6 ng-if="!hideNameAndEmail">
+    <ul style="list-style-type: none">
+      <li>Author: {{name}}</li>
+      <li>Email: {{email}}</li>
+    </ul>
+    </h6>
+  </div>
+  <div style="margin-left: 30px" ng-transclude></div>
+  <h6 ng-if="!hideReadMore">
+    <center ui-sref="post({postId: postId})" style="cursor:pointer" >
+      Click <b>here</b> to read more
+    </center>
+  </h6>
+  <hr/>
+</div>
