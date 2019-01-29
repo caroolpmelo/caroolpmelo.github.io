@@ -23,6 +23,7 @@ html, body {
   flex-wrap: wrap;
   height: 100%;
   background-image: url("img/purple.jpg");
+  background-size: cover;
 }
 
 .infos {
