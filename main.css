@@ -3,6 +3,12 @@
   src: url(font/fake\ receipt.ttf);
 }
 
+@media(max-width: 365px) {
+  h1 {
+    margin-top: 60px;
+  }
+}
+
 html, body {
   margin: 0;
   height: 100%;
