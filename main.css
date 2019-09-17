@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  min-height: 960px;
+  min-height: 760px;
 }
 
 .main-div {
@@ -70,7 +70,7 @@ body {
 }
 
 .social-icons ul li:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .social-icons img {
