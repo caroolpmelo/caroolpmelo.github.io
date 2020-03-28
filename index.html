@@ -27,13 +27,23 @@
         </div>
         <div class="social-icons">
           <ul>
-            <li>
-              <a
-                href="https://docs.google.com/document/d/1bjVJCxCaj44U586DKhcf4mSxPhzh1ECm3_P28CPlX08/edit?usp=sharing"
-                target="_blank"
-              >
-                <img alt="Resume" title="Resume" src="img/icons/cv.png" />
-              </a>
+            <li class="dropdown">
+              <div id="cvDropdown" class="dropdown-content">
+                <a
+                  href="https://docs.google.com/document/d/1bjVJCxCaj44U586DKhcf4mSxPhzh1ECm3_P28CPlX08/edit?usp=sharing"
+                  target="_blank"
+                >
+                  Português (pt-br)
+                </a>
+                <a href="#">English (en-us)</a>
+              </div>
+              <img
+                alt="Resume"
+                title="Resume"
+                src="img/icons/cv.png"
+                onclick="openCvMenu()"
+                class="dropbtn"
+              />
             </li>
             <li>
               <a href="https://github.com/caroolpmelo" target="_blank">
@@ -72,5 +82,6 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
