@@ -79,6 +79,7 @@ body {
 .social-icons i {
   -webkit-text-fill-color: rgb(48, 44, 44);
   font-size: 30px;
+  transition: all .3s ease-out;
   text-decoration: none;
   color: inherit;
 }
